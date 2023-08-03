@@ -1,3 +1,5 @@
+//Q.4 Write a program to implement the process of bank to accept the user details (Bank name, Account type, Account Number, User name, password, and also the transaction, loan process) and display the output
+//2 Files: Bank_Account.java, Main.java
 package Thursdaylab_3Aug;
 public class Bank_Account {
 	String Bank_name,user_name,branch_name;

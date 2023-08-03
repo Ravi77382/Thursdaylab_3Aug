@@ -21,11 +21,11 @@ public class Main extends Bank_Account{
 		setAc_no(sc.nextInt());
 		System.out.println("Enter Pin No: ");
 		newpin=sc.nextInt();
-		if(newpin==getPin())
+		if(newpin==getPin())											//checking the pin number from the getter method and if the pin is correct then perform further 
 		{
 			user_choice();
 		}
-		else
+		else															//If the pin is wrong end the process
 		{
 			System.out.println("Invalid Pin.");
 		}
@@ -98,7 +98,7 @@ public class Main extends Bank_Account{
 			System.out.println("Do you want to continue (yes/no): ");
 			ans=sc.next().charAt(0);
 		}
-		while(ans=='y');
+		while(ans=='y'|| ans=='Y');
 	}
 
 }
